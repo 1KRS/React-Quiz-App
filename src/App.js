@@ -1,10 +1,14 @@
-import Header from './components/Header';
+import Header from './components/Header.js';
+import Quiz from './components/Quiz.js';
 
 function App() {
   return (
-    <main className="App">
+    <>
       <Header />
-    </main>
+      <main>
+        <Quiz />
+      </main>
+    </>
   );
 }
 
